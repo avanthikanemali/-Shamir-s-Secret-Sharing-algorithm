@@ -1,0 +1,17 @@
+Output 1: Secret Value (Calculated using matrix method):
+Example Output:
+Secret: 10
+Output Explanation
+Decoding the Y values: Each point contains a base and a value to decode:
+
+Point 1: Base 10, Value "4" → Decodes to 4
+Point 2: Base 2, Value "111" → Decodes to 7 (binary 111 is 7 in decimal)
+Point 3: Base 10, Value "12" → Decodes to 12
+Point 6: Base 4, Value "213" → Decodes to 39 (base-4 213 is 39 in decimal)
+After decoding the values, the points are as follows:
+
+(1, 4)
+(2, 7)
+(3, 12)
+(6, 39)
+Using the Matrix Method to Compute the Secret: The matrix method is solving the system of equations (via Gaussian elimination) based on the points (x, y) to find the constant term, which is the secret.
